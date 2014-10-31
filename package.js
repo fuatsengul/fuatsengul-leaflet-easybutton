@@ -1,13 +1,13 @@
 Package.describe({
   name: 'fuatsengul:leaflet-easybutton',
   summary: 'EasyButton implementing to Meteor ',
-  version: '1.0.2',
+  version: '1.0.3',
   git: 'https://github.com/fuatsengul/fuatsengul-leaflet-easybutton'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  api.use('mrt:leaflet@0.3.4', 'client');
+  api.use('mrt:leaflet@0.3.8', 'client');
   api.addFiles('fuatsengul:leaflet-easybutton.js', 'client');
 });
 
